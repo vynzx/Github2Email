@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github2email"
+version = "1.0.0"
+dependencies = [
+    "click",
+    "requests",
+    "colorama"
+]
+
+[project.scripts]
+github2email = "github2email:findemail"
+
+[tool.setuptools]
+py-modules = ["github2email"]

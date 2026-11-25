@@ -1,0 +1,4 @@
+.git/
+build/
+dist/
+github2email.egg-info/
